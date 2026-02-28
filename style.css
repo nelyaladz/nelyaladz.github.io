@@ -1,0 +1,94 @@
+iframe {
+	
+height:100vh;
+width:100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color:#EB9DD5;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+.presentation {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.presentation img {
+  width: 120px;   /* plus fiable que % ici */
+  height: auto;
+}
+
+.texte-presentation {
+  flex: 1;
+  color:#000000;
+}
+/*Vous pouvez modifier la couleur de .texte de présentation*/
+th { width: 200px;}
+ul { list-style-type: square; }
+
+#entete-de-page {
+	padding: 5px;
+	height: 100px;
+	background-color:#F21B6D;
+	font-size: 32px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-align: center;
+}
+#bloc-menu {
+	height: 36px;
+	background-color:#B1F2AE;
+	float: center;
+	color: #A7CFA5;
+}
+#contenu {
+	padding: 10px;
+	background-color: #B1FABC;
+}
+#infos {
+	color:#B1F2AE;
+	font-style: italic;
+}
+#pied-de-page {
+	padding: 5px;
+	background-color:#F21B6D;
+	font-size: 11px;
+}
+
+iframe { 
+	display: block; 
+	border: none; 
+	width: 90%; 		/* à définir et à ajuste */ 
+	margin: auto : 
+}
+	/*créer des commandes pour lancer /arrêter de la musique*/
+.bouton {
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	font-weight: 400;
+	color:#F21B6D;
+	font-size:4rem;
+	line-height:2em;
+}
+
+.bouton.active {
+Color:#08c5f3;
+}
+/*mettre une image aux bords arrondis*/
+
+.arrondie {
+-moz-border-radius:20px;
+-webkit-border-radius:20px;
+border-radius:20px;
+}.merriweather-<uniquifier> {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

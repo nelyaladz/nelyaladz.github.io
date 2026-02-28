@@ -1,0 +1,77 @@
+/* Police moderne */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #B1FABC; /* vert contenu */
+    color: #000000;
+}
+
+/* HEADER */
+header {
+    background-color: #F21B6D; /* rose principal */
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    color: #000000;
+}
+
+/* MENU */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #B1F2AE; /* vert menu */
+    color: #000000;
+}
+
+/* SECTIONS */
+section {
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 30px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* TITRES */
+h2 {
+    color: #F21B6D; /* rose principal */
+}
+
+/* LISTES */
+ul li {
+    margin: 10px 0;
+}
+
+/* FOOTER */
+footer {
+    background-color: #F21B6D; /* rose principal */
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    color: #000000;
+}
